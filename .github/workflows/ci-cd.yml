@@ -26,7 +26,7 @@ jobs:
         run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
       - name: Test
         run: echo "Run pytest here"
-
+#本地化部署
   deploy:
     needs: test
     runs-on: self-hosted
