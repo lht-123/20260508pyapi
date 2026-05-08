@@ -5,7 +5,7 @@ on:
     branches: [ main, master ]
 
 env:
-  DEPLOY_SERVER: your-centos-server-ip
+  DEPLOY_SERVER: 192.168.88.157
   DEPLOY_USER: root                    # 建议使用普通用户并授权 docker
   PROJECT_DIR: /data/git/20260508pyapi       # 服务器上的项目目录
 
